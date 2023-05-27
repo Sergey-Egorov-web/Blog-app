@@ -1,0 +1,13 @@
+@import url(input.css);
+
+h1 {
+  width: 238px;
+  height: 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #000000;
+}
