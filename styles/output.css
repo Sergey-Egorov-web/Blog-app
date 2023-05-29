@@ -1,0 +1,29 @@
+.output-container {
+  width: 800px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.output-post-title {
+  width: 600px;
+  margin: 0 auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+
+  color: #000000;
+}
+
+.output-post {
+  width: 600px;
+  margin: 0 auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+
+  color: #000000;
+}

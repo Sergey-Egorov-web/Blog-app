@@ -1,7 +1,9 @@
 @import url(input.css);
+@import url(output.css);
 
 h1 {
-  width: 238px;
+  margin: 20px auto;
+  width: 500px;
   height: 48px;
   font-family: "Inter";
   font-style: normal;

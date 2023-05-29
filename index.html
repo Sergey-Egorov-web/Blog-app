@@ -17,8 +17,9 @@
   </head>
   <body>
     <div class="main-container">
-      <h1>Новый пост</h1>
+      <h1>Это приложение Блог</h1>
       <div class="input-container">
+        <h2>Заголовок блога</h2>
         <div class="input-title">
           <input
             class="js-input-title input-title-text"
@@ -26,9 +27,38 @@
             placeholder="Заголовок"
           />
         </div>
-        <button class="js-add-post-button add-post-button">Добавить</button>
+        <div class="input-post">
+          <p>
+            <textarea
+              class="js-input-post input-title-text"
+              name="post"
+              id="post"
+              placeholder="Напиши пост"
+              cols="25"
+              ;
+              maxlength="200"
+              required;
+              wrap="hard"
+              ;
+            ></textarea>
+          </p>
+          <!-- <input
+            class="js-input-post input-title-text"
+            type="text"
+            placeholder="Напиши пост"
+          /> -->
+        </div>
+        <button class="js-add-post-button add-post-button">Опубликовать</button>
+      </div>
+      <div class="output-container">
+        <h2>Лента</h2>
+
+        <div class="js-posts posts"></div>
+        <!-- <p class="js-output-post-title output-post-title">Здесь пока пусто</p>
+        <p class="js-output-post output-post">Здесь пока пусто</p> -->
       </div>
     </div>
+
     <script src="index.js"></script>
   </body>
 </html>
